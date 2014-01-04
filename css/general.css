@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    color:  white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+/*.clearfix {
+    display: inline-block;
+}*/
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}

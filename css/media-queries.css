@@ -1,0 +1,432 @@
+/* Mobile only */
+@media screen and (max-width: 767px) {
+	body{
+		font-size: 80%;
+	}
+
+	fieldset, img{
+		max-width: 100%;
+	}
+
+	body > section p.goto-section a{
+		padding: 0 40px 0 10px;
+	}
+
+	body > header nav li.active a{
+        font-size: 1.125em !important;
+        line-height: 2.3em !important;
+        color: #fff !important;
+        background-color: transparent !important;
+    }
+
+	body > header{
+		background: #262624;
+		padding: 10px 5px 15px 6px;
+		height: 100%;
+		margin: 0;
+		top: 0;
+		width: 37px;
+	}
+
+	body > header h1{
+		width: 30px;
+		background-size: 100%;
+		position: absolute;
+		bottom: 250px;
+		left: 10px;
+	}
+
+	body > section header h2{
+		font-size: 2.1em !important;
+	}
+
+	body > header nav{
+		position: absolute;
+		bottom: 35px;
+	}
+
+	body > header nav li{
+		width: 32px;
+		height: 32px;
+	}
+
+	body > header nav li a{
+		color: #262624 !important;
+		font-size: 1.1em !important;
+	}
+
+	body > header nav li.home a         { background-color: #FF6D33; }
+    body > header nav li.about a        { background-color: #EEF91E; }
+    body > header nav li.events a       { background-color: #32FFD8; }
+    body > header nav li.our-events a   { background-color: #FF56C1; }
+    body > header nav li.place a        { background-color: #F8D300; }
+    body > header nav li.who-are-we a   { background-color: #357FFF; }
+    body > header nav li.contact a      { background-color: #2AF976; }
+
+	body > section{
+		padding: 20px 30px 0 75px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	body > section.home{
+		padding: 0;
+	}
+
+	body > section .light-bg{
+		width: 100% !important;
+	}
+
+	body > section.home .home-wrap{
+		width: 65%;
+		padding-left: 40px;
+	}
+
+	body > section.home .home-wrap > img{
+		margin-top: -25px;
+	}
+
+	body > section.home p.month-teaser{
+		width: 180px;
+		height: 180px;
+		background-size: 100%;
+		top: 40%;
+		left: auto;
+	}
+
+	body > section.about .contents .icon-box .line{
+		width: 25%;
+	}
+	body > section.about .contents .icon-box .icons{
+		width: 75%;
+	}
+
+	body > section.events header{
+		width: auto;
+	}
+
+	body > section.events header h2{
+		width: auto;
+		float: none;
+		text-align: center;
+	}
+
+	body > section.events header .inset-box{
+		width: 80%;
+		padding: 0 20px;
+		float: none;
+		margin: 0 auto;
+	}
+
+	body > section.events{
+		/*padding: 20px 30px 0 60px;*/
+	}
+
+	body > section.events .aspects{
+		/*width: 75%;*/
+	}
+
+	body > section.events .aspects ul li{
+		margin-bottom: 30px;
+		width: 70%;
+		max-width: 170px;
+	}
+
+    body > section.events .aspects ul li + li{
+        margin-left: 0;
+    }
+
+    body > section.events .aspects ul li + li:before{
+        display: none;
+    }
+
+	body > section.our-events{
+		padding-left: 30px;
+	}
+
+	body > section.our-events header{
+		width: auto;
+		padding-top: 0;
+	}
+
+	body > section.our-events header h2{
+		padding: 10px 15% 0 15%;
+		/*margin: 150px 0 -150px 0;*/
+		width: 30%; /* Force le titre à afficher sur deux lignes */
+		line-height: 1.2em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	body > section.our-events header .tagline{
+		width: 125px;
+		height: 110px;
+		left: auto;
+		top: 140px;
+		padding: 50px 0 0 15%;
+	}
+
+	body > section.our-events .events{
+		margin-top: 140px;
+	}
+
+	body > section.our-events .events .event-wrap{
+
+	}
+
+	body > section.our-events .events ul.event-nav{
+		margin-left: -24px;
+	}
+
+	body > section.our-events .events article{
+		width: 55%;
+		left: -10px;
+		padding: 20px 6%;
+	}
+
+	body > section.our-events .event-list article ul.links li{
+		width: 100%;
+		text-align: center !important;
+	}
+
+	body > section.our-events p.goto-section a{
+		margin-left: -30px;
+	}
+
+	body > section.place header{
+		width: 100%;
+		padding: 0;
+		margin: 30px 0 0;
+	}
+
+	body > section.place header h3{
+		position: relative;
+		margin: 15px auto;
+		top: 50%;
+		left: 0;
+	}
+
+	body > section.place header h2{
+		text-align: center;
+	}
+
+	body > section.place header .tagline{
+		text-align: center;
+		margin: 0;
+	}
+
+	body > section.place .inset-box{
+		width: 100%;
+	}
+
+	body > section.who-are-we header{
+		width: 100%;
+		margin: 0;
+	}
+
+	body > section.who-are-we .inset-box{
+		width: 65%;
+		padding-left: 100px;
+	}
+
+	body > section.who-are-we .inset-box img{
+		left: 0;
+	}
+
+	body > section.who-are-we .inset-box p{
+		width: 100%;
+	}
+
+	body > section.who-are-we .faces ul{
+		margin: 40px 0 0;
+	}
+
+	body > section.who-are-we .faces ul:after{
+		content: ".";
+	    display: block;
+	    clear: both;
+	    visibility: hidden;
+	    line-height: 0;
+	    height: 0;
+	}
+
+	body > section.who-are-we .faces ul li{
+		display: block;
+		float: left;
+		min-height: 135px;
+		width: 50%;
+	}
+
+	body > section.contact header{
+		width: 70%;
+		text-align: left;
+	}
+
+	body > section.contact section{
+		width: 60%;
+		margin: 0;
+		padding-left: 70px;
+	}
+
+	body > section.contact hr{
+		width: 100%;
+		left: 0;
+		margin: 0;
+	}
+}
+
+/* Horizontal mobile */
+@media screen and (max-width: 767px) and (min-width: 479px) and (max-height: 370px){
+
+	body > section{
+		padding-left: 105px;
+	}
+
+	body > header{
+		width: 67px;
+	}
+
+	body > header h1{
+		bottom: 0px;
+		left: 5px;
+	}
+
+	body > section header h2{
+		font-size: 2.1em !important;
+	}
+
+	body > header nav{
+		left: 40px;
+		bottom: 33px;
+	}
+
+	body > header nav li{
+		width: 26px;
+		height: 26px;
+	}
+
+	body > header nav li a{
+		line-height: 2em !important;
+	}
+
+	body > header nav li.active a{
+		line-height: 1.9em !important;
+	}
+
+	body > section.home .home-wrap{
+		width: 190px;
+		padding-left: 250px;
+		padding-top: 25px;
+	}
+
+	body > section.home .home-wrap > img{
+		margin-top: 0;
+	}
+
+	body > section.home p.month-teaser{
+		top: 50%;
+		left: 80px;
+		width: 150px;
+		height: 150px;
+		margin-top: -65px;
+	}
+
+	body > section.our-events header h2{
+		padding: 10px 15% 0 17%;
+	}
+
+	body > section.our-events header .tagline{
+		right: 16%;
+		left: auto;
+		top: 39px;
+		line-height: 1em;
+	}
+
+	body > section.our-events .events article{
+		left: 7px;
+	}
+
+	body > section.our-events .events {
+		margin-top: 10px;
+	}
+
+	body > section.our-events .events article{
+		width: 60%;
+	}
+
+	body > section.who-are-we .faces ul li{
+		width: 33.33%;
+	}
+
+	body > section.place header{
+		width: 80%;
+		margin: 10px auto 0;
+	}
+}
+
+/* Horizontal mobile (large screens) */
+@media screen and (max-width: 767px) and (min-width: 639px){
+
+	body > section.who-are-we .faces ul li{
+		width: 33%;
+	}
+}
+
+/* Events list fix */
+@media screen and (max-width: 1150px){
+	body > section.events .aspects ul li{
+		margin-bottom: 30px;
+		width: 70%;
+		max-width: 141px;
+	}
+    body > section.events .aspects ul li + li{
+        margin-left: 0;
+    }
+    body > section.events .aspects ul li + li:before{
+        display: none;
+    }
+}
+@media screen and (max-width: 990px){
+	body > section.events .aspects ul li{
+		display: block;
+		float: left;
+		margin-bottom: 30px;
+		width: 49%;
+		min-height: 200px;
+		max-width: 100%;
+		padding: 100px 7% 0;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 600px){
+	body > section.events .aspects ul li{
+		float: none;
+		margin-bottom: 0px;
+		width: 100%;
+		padding: 100px 30% 0;
+	}
+}
+@media screen and (max-width: 500px){
+	body > section.events .aspects ul li{
+		padding: 100px 15% 0;
+	}
+}
+
+/* Who we are fix */
+@media screen and (max-width: 800px) and (min-width: 767px){
+
+	body > section.who-are-we .faces ul li{
+		width: 105px;
+	}
+}
+/* Chrome fix events */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	body > section.our-events .events ul{
+		margin-top: 0;
+		margin-bottom: -10px;
+	}
+}

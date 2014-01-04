@@ -1,0 +1,83 @@
+/*@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	body > section p.goto-section a .arrow{
+		background-image: url('/images/goto-section-mask-2x.png');
+		background-size: 75px;
+	}
+	body > section p.goto-section a .arrow.reverse{
+		background-image: url('/images/goto-section-mask-reverse-2x.png');
+		background-size: 75px;
+	}
+	body > header h1{
+        background-image: url('/images/menu-logo-2x.png');
+        background-size: 38px 113px;
+    }
+	body > section.home p.month-teaser{
+		background-image: url('/images/home-circle-logo-2x.png');
+		background-size: 245px;
+	}
+	body > section.events .aspects ul li + li:before{
+		background-image: url('/images/events-icon-plus-2x.png');
+		background-size: 43px;
+	}
+	body > section.events .aspects ul li.bulb{
+		background-image: url('/images/events-icon-bulb-2x.png');
+		background-size: 76px;
+	}
+	body > section.events .aspects ul li.arrows{
+		background-image: url('/images/events-icon-arrows-2x.png');
+		background-size: 76px;
+	}
+	body > section.events .aspects ul li.bubble{
+		background-image: url('/images/events-icon-bubble-2x.png');
+		background-size: 76px;
+	}
+	body > section.events .aspects ul li.circle{
+		background-image: url('/images/events-icon-circle-2x.png');
+		background-size: 76px;
+	}
+	body > section.our-events header .tagline{
+		background-image: url('/images/our-events-bubble-2x.png');
+		background-size: 68px 59px;
+	}
+	body > section.our-events .events ul li button,
+	body > section.our-events .events ul.event-nav li a,
+	body > section.our-events .events ul.event-nav li.active a{
+		background-image: url('/images/our-events-bullet-off-2x.png');
+		background-size: 19px;
+	}
+	body > section.our-events .events ul li.active button{
+		background-image: url('/images/our-events-bullet-on-2x.png');
+		background-size: 19px;
+	}
+	body > section.our-events .event-list .nav-links button.right,
+	body > section.our-events .event-list .nav-links a.right{
+		background-image: url('/images/our-events-nav-arrow-right-2x.png');
+		background-size: 31px 51px;
+	}
+	body > section.our-events .event-list .nav-links button.left,
+	body > section.our-events .event-list .nav-links a.left{
+		background-image: url('/images/our-events-nav-arrow-left-2x.png');
+		background-size: 31px 51px;
+	}
+	body > section.place header h3{
+		background-image: url('/images/place-circle-bg-2x.png');
+		background-size: 145px;
+	}
+	body > section.contact section.mail{
+		background-image: url('/images/contact-icon-mail-2x.png');
+		background-size: 61px;
+	}
+	body > section.contact section.email{
+		background-image: url('/images/contact-icon-email-2x.png');
+		background-size: 61px;
+	}
+	body > section.contact section.phone{
+		background-image: url('/images/contact-icon-phone-2x.png');
+		background-size: 61px;
+	}
+
+}*/
