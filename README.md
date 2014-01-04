@@ -2,4 +2,4 @@
 
 ## Quick start
 
-    php -S localhost:8000
+    open index.html
