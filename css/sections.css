@@ -92,7 +92,7 @@ body > section p.goto-section {
 
         body > section p.goto-section a .arrow{
             background-color:  #A0AD00;
-            background-image: url('/images/goto-section-mask.png');
+            background-image: url('../images/goto-section-mask.png');
             background-position: center center;
             width: 1.5em;
             height: 1.5em;
@@ -105,14 +105,14 @@ body > section p.goto-section {
         }
 
         body > section p.goto-section a .arrow.reverse{
-            background-image: url('/images/goto-section-mask-reverse.png');
+            background-image: url('../images/goto-section-mask-reverse.png');
         }
 
 /** Home Section **/
 
 body > section.home{
     background-color:  #E14E24;
-    background-image: url('/images/img-qcnum.png');
+    background-image: url('../images/img-qcnum.png');
     background-size: cover;
 }
 
@@ -131,7 +131,7 @@ body > section.home{
     body > section.home p.month-teaser{
         width: 251px;
         height: 251px;
-        background-image: url('/images/home-circle-logo.png');
+        background-image: url('../images/home-circle-logo.png');
         background-repeat: no-repeat;
         background-position: center center;
         position: absolute;
@@ -165,7 +165,7 @@ body > section.home{
 
 body > section.about{
     background-color:  #A0AD00;
-    background-image: url('/images/img-apropos.png');
+    background-image: url('../images/img-apropos.png');
     background-size: cover;
 }
 
@@ -242,7 +242,7 @@ body > section.about{
 
 body > section.events{
     background-color:  #00ACA7;
-    background-image: url('/images/img-evenements.png');
+    background-image: url('../images/img-evenements.png');
     background-size: cover;
 }
 
@@ -307,26 +307,26 @@ body > section.events{
                 content: " ";
                 display: block;
                 position: absolute;
-                background-image: url('/images/events-icon-plus.png');
+                background-image: url('../images/events-icon-plus.png');
                 margin: -80px 0 0 -55px;
                 width: 35px;
                 height: 35px;
             }
 
                 body > section.events .aspects ul li.bulb{
-                    background-image: url('/images/events-icon-bulb.png');
+                    background-image: url('../images/events-icon-bulb.png');
                 }
 
                 body > section.events .aspects ul li.arrows{
-                    background-image: url('/images/events-icon-arrows.png');
+                    background-image: url('../images/events-icon-arrows.png');
                 }
 
                 body > section.events .aspects ul li.bubble{
-                    background-image: url('/images/events-icon-bubble.png');
+                    background-image: url('../images/events-icon-bubble.png');
                 }
 
                 body > section.events .aspects ul li.circle{
-                    background-image: url('/images/events-icon-circle.png');
+                    background-image: url('../images/events-icon-circle.png');
                 }
 
                 body > section.events .aspects ul li span{
@@ -350,7 +350,7 @@ body > section.events{
 
 body > section.our-events{
     background-color:  #9B2B78;
-    background-image: url('/images/img-nosevenements.png');
+    background-image: url('../images/img-nosevenements.png');
     background-size: cover;
 }
 
@@ -368,7 +368,7 @@ body > section.our-events{
         }
 
         body > section.our-events header .tagline{
-            background-image: url('/images/our-events-bubble.png');
+            background-image: url('../images/our-events-bubble.png');
             background-position: right top;
             background-repeat: no-repeat;
             width: 165px;
@@ -411,7 +411,7 @@ body > section.our-events{
                 body > section.our-events .events ul.event-nav li a,
                 body > section.our-events .events ul.event-nav li.active a{
                     background: none;
-                    background-image: url('/images/our-events-bullet-off.png');
+                    background-image: url('../images/our-events-bullet-off.png');
                     background-position: center center;
                     background-repeat: no-repeat;
                     border: none;
@@ -423,7 +423,7 @@ body > section.our-events{
                 }
 
                     body > section.our-events .events ul li.active button{
-                        background-image: url('/images/our-events-bullet-on.png');
+                        background-image: url('../images/our-events-bullet-on.png');
                     }
 
 
@@ -466,13 +466,13 @@ body > section.our-events{
 
                     body > section.our-events .event-list .nav-links button.right,
                     body > section.our-events .event-list .nav-links a.right{
-                        background-image: url('/images/our-events-nav-arrow-right.png');
+                        background-image: url('../images/our-events-nav-arrow-right.png');
                         right: -45px;
                     }
 
                     body > section.our-events .event-list .nav-links button.left,
                     body > section.our-events .event-list .nav-links a.left{
-                        background-image: url('/images/our-events-nav-arrow-left.png');
+                        background-image: url('../images/our-events-nav-arrow-left.png');
                         left: -45px;
                     }
 
@@ -530,7 +530,7 @@ body > section.our-events{
 
 body > section.place{
     background-color:  #D39B00;
-    background-image: url('/images/img-lelieu.png');
+    background-image: url('../images/img-lelieu.png');
     background-size: cover;
 }
 
@@ -548,7 +548,7 @@ body > section.place{
 
         body > section.place header h3{
             position: absolute;
-            background-image: url('/images/place-circle-bg.png');
+            background-image: url('../images/place-circle-bg.png');
             background-position: center center;
             background-repeat: no-repeat;
             width: 145px;
@@ -628,7 +628,7 @@ body > section.place{
 
 body > section.who-are-we{
     background-color:  #24449E;
-    background-image: url('/images/img-quinoussommes.png');
+    background-image: url('../images/img-quinoussommes.png');
     background-size: cover;
 }
 
@@ -702,7 +702,7 @@ body > section.who-are-we{
                      position: absolute;
                      width: 80px;
                      height: 80px;
-                     background-image: url('/images/who-pic-mask.png');
+                     background-image: url('../images/who-pic-mask.png');
                      background-position: center center;
                      background-repeat: no-repeat;
                      top: 0;
@@ -752,7 +752,7 @@ body > section.who-are-we{
 
 body > section.contact{
     background-color:  #009861;
-    background-image: url('/images/img-contacter.png');
+    background-image: url('../images/img-contacter.png');
     background-size: cover;
 }
 
@@ -765,15 +765,15 @@ body > section.contact{
         padding-left: 90px;
     }
         body > section.contact section.mail{
-            background-image: url('/images/contact-icon-mail.png');
+            background-image: url('../images/contact-icon-mail.png');
         }
 
         body > section.contact section.email{
-            background-image: url('/images/contact-icon-email.png');
+            background-image: url('../images/contact-icon-email.png');
         }
 
         body > section.contact section.phone{
-            background-image: url('/images/contact-icon-phone.png');
+            background-image: url('../images/contact-icon-phone.png');
         }
 
     body > section.contact section h3{
