@@ -20,8 +20,25 @@
         </ul>
       </div>
       <div class="inset-box gradient">
-        <img src="/images//people/jonathan-parent.png" alt="">
-        <p>De plus, Québec numérique peut compter sur l'apport d'une permanence :<br><span class="name"><a href="http://ca.linkedin.com/in/joparent">Jonathan Parent</a>, directeur général</span></p>
+        <p>De plus, Québec numérique peut compter sur l'apport d'une permanence :</p>
+      </div>
+      <div class="faces permanent">
+        <ul>
+          <li>
+            <span class="picture"><img src="/images/people/jonathan-parent.png" alt="Jonathan Parent"></span>
+            <div class="description">
+              <a href="http://ca.linkedin.com/in/joparent">Jonathan Parent</a><br/>
+              <span class="title">directeur général</span>
+            </div>
+          </li>
+          <li>
+            <span class="picture"><img src="/images/people/patrick-parent.png" alt="Patrick Parent"></span>
+            <div class="description">
+              <a href="http://ca.linkedin.com/in/patrickparent">Patrick Parent</a><br/>
+              <span class="title">rayonnement et mobilisation</span>
+            </div>
+          </li>
+        </ul>
       </div>
       <p class="goto-section"><a href="#nous-contacter"><span class="visuallyhidden">Aller à la section </span><span class="number">07</span><span class="visuallyhidden"> : </span>Nous contacter<span class="arrow"></span></a></p>
     </div>

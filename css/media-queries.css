@@ -227,8 +227,7 @@
 	}
 
 	body > section.who-are-we .inset-box{
-		width: 65%;
-		padding-left: 100px;
+		width: 80%;
 	}
 
 	body > section.who-are-we .inset-box img{
@@ -258,6 +257,12 @@
 		min-height: 135px;
 		width: 50%;
 	}
+
+  body > section.who-are-we .faces.permanent ul li{
+  	min-height: inherit;
+  	padding: 10px 0;
+    width: 80%;
+  }
 
 	body > section.contact header{
 		width: 70%;
