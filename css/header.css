@@ -8,80 +8,80 @@
 }*/
 
 body > header{
-    position: fixed;
-    left: 0;
-    top: 50%;
-    margin-top: -185px;
-    padding: 10px;
-    height: 370px;
-    z-index: 100000;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -185px;
+  padding: 10px;
+  height: 370px;
+  z-index: 100000;
 }
 
-    body > header h1{
-        background-image: url('../images/menu-logo.png');
-        background-position: center center;
-        background-repeat: no-repeat;
-        width: 38px;
-        height: 113px;
-    }
+body > header h1{
+  background-image: url('../images/menu-logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 113px;
+}
 
-    body > header nav{
-        margin: 0 auto;
-    }
+body > header nav{
+  margin: 0 auto;
+}
 
-        body > header nav ul{
+body > header nav ul{
 
-        }
+}
 
-            body > header nav li{
-                width: 2em;
-                height: 2em;
-            }
+body > header nav li{
+  width: 2em;
+  height: 2em;
+}
 
-                body > header nav li a{
-                    text-decoration: none;
-                    font-size: 0.8em;
-                    line-height: 2.400em;
-                    text-align: center;
-                    width: 100%;
-                    height: 100%;
-                    background-color:  #262624;
-                    margin: 2px;
-                    display: block;
-                    font-family: Oswald, sans-serif;
-                }
+body > header nav li a{
+  text-decoration: none;
+  font-size: 0.8em;
+  line-height: 2.400em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color:  #262624;
+  margin: 2px;
+  display: block;
+  font-family: Oswald, sans-serif;
+}
 
-                body > header nav li.active a{
-                    font-size: 1.125em;
-                    line-height: 1.8em;
-                    color: #fff !important;
-                    background-color: transparent;
-                }
+body > header nav li.active a{
+  font-size: 1.125em;
+  line-height: 1.8em;
+  color: #fff !important;
+  background-color: transparent;
+}
 
-                body > header nav li a:hover{
-                    color: #000 !important;
-                }
+body > header nav li a:hover{
+  color: #000 !important;
+}
 
-                body > header nav li.active a:hover{
-                    color: #fff !important;
-                    background-color: transparent !important;
-                    cursor: default;
-                }
+body > header nav li.active a:hover{
+  color: #fff !important;
+  background-color: transparent !important;
+  cursor: default;
+}
 
-                    body > header nav li.home a         { color: #FF6D33; }
-                    body > header nav li.about a        { color: #EEF91E; }
-                    body > header nav li.events a       { color: #32FFD8; }
-                    body > header nav li.our-events a   { color: #FF56C1; }
-                    body > header nav li.place a        { color: #F8D300; }
-                    body > header nav li.who-are-we a   { color: #357FFF; }
-                    body > header nav li.contact a      { color: #2AF976; }
+body > header nav li.home a         { color: #FF6D33; }
+body > header nav li.about a        { color: #EEF91E; }
+body > header nav li.events a       { color: #32FFD8; }
+body > header nav li.our-events a   { color: #FF56C1; }
+body > header nav li.place a        { color: #F8D300; }
+body > header nav li.who-are-we a   { color: #357FFF; }
+body > header nav li.contact a      { color: #2AF976; }
 
-                    body > header nav li.home a:hover         { background-color: #FF6D33; }
-                    body > header nav li.about a:hover        { background-color: #EEF91E; }
-                    body > header nav li.events a:hover       { background-color: #32FFD8; }
-                    body > header nav li.our-events a:hover   { background-color: #FF56C1; }
-                    body > header nav li.place a:hover        { background-color: #ffed1b; }
-                    body > header nav li.who-are-we a:hover   { background-color: #357FFF; }
-                    body > header nav li.contact a:hover      { background-color: #2AF976; }
+body > header nav li.home a:hover         { background-color: #FF6D33; }
+body > header nav li.about a:hover        { background-color: #EEF91E; }
+body > header nav li.events a:hover       { background-color: #32FFD8; }
+body > header nav li.our-events a:hover   { background-color: #FF56C1; }
+body > header nav li.place a:hover        { background-color: #ffed1b; }
+body > header nav li.who-are-we a:hover   { background-color: #357FFF; }
+body > header nav li.contact a:hover      { background-color: #2AF976; }
 
 
