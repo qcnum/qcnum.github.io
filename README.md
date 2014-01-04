@@ -1,5 +1,10 @@
 # Québec Numérique
 
+> Québec numérique regroupe des individus et citoyens ayant en commun la mission
+de rassembler, développer, promouvoir et valoriser la communauté numérique de Québec
+et son apport social et économique, par le partage, la rencontre et l’émergence
+de projets communs.
+
 ## Quick start
 
 Our website is a plain HTML page backed by a bit of JS for the custom scrolling.
