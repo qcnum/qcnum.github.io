@@ -419,7 +419,7 @@ body > section.our-events{
                     width: 19px;
                     height: 19px;
                     cursor: pointer;
-                	cursor: hand;
+                    cursor: hand;
                 }
 
                     body > section.our-events .events ul li.active button{
@@ -458,7 +458,7 @@ body > section.our-events{
                     width: 31px;
                     height: 51px;
                     cursor: pointer;
-                	cursor: hand;
+                    cursor: hand;
                     position: absolute;
                     top: 50%;
                     margin-top: -25px;
@@ -811,6 +811,10 @@ body > section.contact{
         padding:0;
         position: relative;
         left: 45px;
+    }
+
+    body > section.contact p.goto-section {
+        margin-top: 20px;
     }
 
     body > section.contact p.goto-section a .number{
