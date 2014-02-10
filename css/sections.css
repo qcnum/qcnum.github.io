@@ -787,11 +787,6 @@ body > section.contact{
         font-weight: 200;
     }
 
-    body > section.contact section.email p{
-        margin: 0;
-        padding: 0;
-    }
-
     body > section.contact section a{
         font-weight: 200;
         text-decoration: none;
@@ -799,6 +794,18 @@ body > section.contact{
     }
         body > section.contact section a:hover{
             text-decoration: underline;
+        }
+
+
+    body > section.contact section p.more {
+        margin-bottom: 0;
+    }
+        body > section.contact section p.more a{
+            display: inline-block;
+            color: #96f48c;
+            background-color: #262624;
+            padding: 1px 5px;
+            margin: 2px 0;
         }
 
     body > section.contact hr{
